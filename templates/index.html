@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifirup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+  <!-- Header -->
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+          <div class="col-md-3 mb-2 mb-md-0">
+            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+              <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+          </div>
+    
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+            <li><a href="#" class="nav-link px-2">Features</a></li>
+            <li><a href="#" class="nav-link px-2">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2">About</a></li>
+          </ul>
+    
+          <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-outline-primary me-2">Login</button>
+            <button type="button" class="btn btn-primary">Sign-up</button>
+
+            <button id="toggle-mode">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-moon dark-mode-button" viewBox="0 0 16 16">
+                <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286"/>
+              </svg>
+            </button>
+          </div>
+        </header>
+      </div>
+
+
+      <!-- Hero -->
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">Centered screenshot</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Cadastrar</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Ver Unidades Na Minha Região</button>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+            <img src="../static/academia_vazia.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Features -->
+      <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom">Features with title</h2>
+    
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class="fw-bold text-body-emphasis">Left-aligned title explaining these awesome features</h2>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            <a href="#" class="btn btn-primary btn-lg">Primary button</a>
+          </div>
+    
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                  <svg width="36" height="36" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 4C0 2.89543 0.895431 2 2 2H14C15.1046 2 16 2.89543 16 4V12C16 13.1046 15.1046 14 14 14H2C0.895431 14 0 13.1046 0 12V4ZM2 3C1.44772 3 1 3.44772 1 4V5H15V4C15 3.44772 14.5523 3 14 3H2ZM15 7H1V12C1 12.5523 1.44772 13 2 13H14C14.5523 13 15 12.5523 15 12V7Z" fill="black"/>
+                      <path d="M2 10C2 9.44772 2.44772 9 3 9H4C4.55228 9 5 9.44772 5 10V11C5 11.5523 4.55228 12 4 12H3C2.44772 12 2 11.5523 2 11V10Z" fill="black"/>
+                  </svg>
+
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Longe do Limite!</h4>
+                <p class="text-body-secondary">O nosso sistema nao utiliza o limite do seu cartão de credito para a inscrição, significa que voce pode se inscrever sem se importar com o limite.</p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                  <svg width="36" height="36" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.5 15C2.22386 15 2 14.7762 2 14.5C2 14.2239 2.22386 14 2.5 14H3.5V13C3.5 11.2099 4.54528 9.66493 6.05655 8.9403C6.34645 8.8013 6.5 8.56317 6.5 8.35083V7.64919C6.5 7.43685 6.34645 7.19872 6.05655 7.05972C4.54528 6.33509 3.5 4.7901 3.5 3V2H2.5C2.22386 2 2 1.77614 2 1.5C2 1.22386 2.22386 1 2.5 1L13.5 1.00002C13.7761 1.00003 14 1.22389 14 1.50003C14 1.77617 13.7761 2.00003 13.5 2.00002L12.5 2.00001V3C12.5 4.7901 11.4547 6.33509 9.94345 7.05972C9.65355 7.19872 9.5 7.43685 9.5 7.64919V8.35083C9.5 8.56317 9.65355 8.8013 9.94345 8.9403C11.4547 9.66493 12.5 11.2099 12.5 13V14H13.5C13.7761 14 14 14.2239 14 14.5C14 14.7762 13.7761 15 13.5 15H2.5ZM4.5 2.00002V3.00002C4.5 3.5367 4.62078 4.04531 4.83678 4.50004H11.1632C11.3792 4.04531 11.5 3.5367 11.5 3.00002V2.00002H4.5ZM7.5 8.35085C7.5 9.05108 7.02187 9.58648 6.4889 9.84203C5.31139 10.4066 4.5 11.6091 4.5 13C4.5 13 5.36574 11.7014 7.5 11.5208V8.35085ZM8.5 8.35085V11.5208C10.6343 11.7014 11.5 13 11.5 13C11.5 11.6091 10.6886 10.4066 9.5111 9.84203C8.97813 9.58648 8.5 9.05108 8.5 8.35085Z" fill="black"/>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Sem Pressa</h4>
+                <p class="text-body-secondary">Nossas Academias são 24 horas, voce pode treinar o horario que quiser!</p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#speedometer"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+                <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+              </div>
+    
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#table"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+                <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <script src="../static/script.js"></script>
+</body>
+</html>
