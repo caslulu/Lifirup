@@ -1,3 +1,5 @@
+
+//// modo claro e modo escuro
 const toggleButton = document.getElementById('toggle-mode');
 const body = document.body;
 
@@ -12,4 +14,10 @@ toggleButton.addEventListener('click', () => {
     } else {
         localStorage.setItem('darkMode', 'disabled');
     }
+});
+
+
+
+document.getElementById("scroll-btn").addEventListener("click", function() {
+document.getElementById("minha-secao").scrollIntoView({ behavior: "smooth" });
 });
