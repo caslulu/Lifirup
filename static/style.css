@@ -100,3 +100,12 @@ button:hover {
 html {
     scroll-behavior: smooth;
 }
+
+
+
+.lead{
+    width: 100%;
+     max-width: 1200px;
+      text-align: justify;
+       margin: 0 auto;
+}

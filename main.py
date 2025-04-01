@@ -14,6 +14,11 @@ def sobre_page():
     return render_template('sobre.html')
 
 
+@app.route("/precos")
+def precos_page():
+    return render_template('precos.html')
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
