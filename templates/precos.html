@@ -1,0 +1,268 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<section id="minha-secao">
+    <div class="container py-3">
+      <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+          <p class="fs-5 text-body-secondary">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+        </div>
+      </header>
+    
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Basico</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">R$110,90<small class="text-body-secondary fw-light">/mês</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Treine qualquer dia</li>
+                  <li>Cadeira de Massagem</li>
+                  <li>Aulas Coletivas</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Matricular</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Fitness</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">R$130,90<small class="text-body-secondary fw-light">/mês</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Treine em qualquer unidade</li>
+                  <li>Biopedancia Mensal Inclusa</li>
+                  <li>Direito a usar a piscina e a sauna</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Matricular</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">GymPro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">R$199,90<small class="text-body-secondary fw-light">/mês</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Dieta Inclusa</li>
+                  <li>Ficha Mensal Inclusa</li>
+                  <li>Acompanhamento Medico Incluso</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Entrar em contato</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <h2 class="display-6 text-center mb-4">Comparar Planos</h2>
+    
+        <div class="table-responsive">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th style="width: 34%;"></th>
+                <th style="width: 22%;">Basico</th>
+                <th style="width: 22%;">Fitness</th>
+                <th style="width: 22%;">GymPro</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr>
+                <th scope="row" class="text-start">Treinar em qualquer horario</th>
+                <td>
+                  <svg width="24" height="24" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.96963 0.96967C7.26253 0.676777 7.7374 0.676777 8.03029 0.96967C8.31959 1.25897 8.32314 1.72582 8.04094 2.01947L4.04873 7.00973C4.04297 7.01693 4.03682 7.02381 4.03029 7.03033C3.7374 7.32322 3.26253 7.32322 2.96963 7.03033L0.323186 4.38388C0.0302923 4.09099 0.0302923 3.61612 0.323186 3.32322C0.616079 3.03033 1.09095 3.03033 1.38385 3.32322L3.47737 5.41674L6.94974 0.992105C6.95592 0.984235 6.96256 0.976743 6.96963 0.96967Z" fill="black"/>
+                  </svg>
+                </td>
+                <td>
+                  <svg width="24" height="24" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.96963 0.96967C7.26253 0.676777 7.7374 0.676777 8.03029 0.96967C8.31959 1.25897 8.32314 1.72582 8.04094 2.01947L4.04873 7.00973C4.04297 7.01693 4.03682 7.02381 4.03029 7.03033C3.7374 7.32322 3.26253 7.32322 2.96963 7.03033L0.323186 4.38388C0.0302923 4.09099 0.0302923 3.61612 0.323186 3.32322C0.616079 3.03033 1.09095 3.03033 1.38385 3.32322L3.47737 5.41674L6.94974 0.992105C6.95592 0.984235 6.96256 0.976743 6.96963 0.96967Z" fill="black"/>
+                  </svg>
+                </td>
+                <td>
+                  <svg width="24" height="24" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.96963 0.96967C7.26253 0.676777 7.7374 0.676777 8.03029 0.96967C8.31959 1.25897 8.32314 1.72582 8.04094 2.01947L4.04873 7.00973C4.04297 7.01693 4.03682 7.02381 4.03029 7.03033C3.7374 7.32322 3.26253 7.32322 2.96963 7.03033L0.323186 4.38388C0.0302923 4.09099 0.0302923 3.61612 0.323186 3.32322C0.616079 3.03033 1.09095 3.03033 1.38385 3.32322L3.47737 5.41674L6.94974 0.992105C6.95592 0.984235 6.96256 0.976743 6.96963 0.96967Z" fill="black"/>
+                  </svg>
+                </td>
+              </tr>
+
+
+
+              <tr>
+                <th scope="row" class="text-start">Aulas Coletivas</th>
+                <td>
+                    <svg width="24" height="24" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.96963 0.96967C7.26253 0.676777 7.7374 0.676777 8.03029 0.96967C8.31959 1.25897 8.32314 1.72582 8.04094 2.01947L4.04873 7.00973C4.04297 7.01693 4.03682 7.02381 4.03029 7.03033C3.7374 7.32322 3.26253 7.32322 2.96963 7.03033L0.323186 4.38388C0.0302923 4.09099 0.0302923 3.61612 0.323186 3.32322C0.616079 3.03033 1.09095 3.03033 1.38385 3.32322L3.47737 5.41674L6.94974 0.992105C6.95592 0.984235 6.96256 0.976743 6.96963 0.96967Z" fill="black"/>
+                    </svg>
+                </td>
+                <td>
+                    <svg width="24" height="24" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.96963 0.96967C7.26253 0.676777 7.7374 0.676777 8.03029 0.96967C8.31959 1.25897 8.32314 1.72582 8.04094 2.01947L4.04873 7.00973C4.04297 7.01693 4.03682 7.02381 4.03029 7.03033C3.7374 7.32322 3.26253 7.32322 2.96963 7.03033L0.323186 4.38388C0.0302923 4.09099 0.0302923 3.61612 0.323186 3.32322C0.616079 3.03033 1.09095 3.03033 1.38385 3.32322L3.47737 5.41674L6.94974 0.992105C6.95592 0.984235 6.96256 0.976743 6.96963 0.96967Z" fill="black"/>
+                    </svg>
+                </td>
+                <td>                        
+                    <svg width="24" height="24" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.96963 0.96967C7.26253 0.676777 7.7374 0.676777 8.03029 0.96967C8.31959 1.25897 8.32314 1.72582 8.04094 2.01947L4.04873 7.00973C4.04297 7.01693 4.03682 7.02381 4.03029 7.03033C3.7374 7.32322 3.26253 7.32322 2.96963 7.03033L0.323186 4.38388C0.0302923 4.09099 0.0302923 3.61612 0.323186 3.32322C0.616079 3.03033 1.09095 3.03033 1.38385 3.32322L3.47737 5.41674L6.94974 0.992105C6.95592 0.984235 6.96256 0.976743 6.96963 0.96967Z" fill="black"/>
+                    </svg>
+                </td>
+              </tr>
+            </tbody>
+    
+
+
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Biopedancia</th>
+                <td></td>
+                <td>
+                  <svg width="24" height="24" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.96963 0.96967C7.26253 0.676777 7.7374 0.676777 8.03029 0.96967C8.31959 1.25897 8.32314 1.72582 8.04094 2.01947L4.04873 7.00973C4.04297 7.01693 4.03682 7.02381 4.03029 7.03033C3.7374 7.32322 3.26253 7.32322 2.96963 7.03033L0.323186 4.38388C0.0302923 4.09099 0.0302923 3.61612 0.323186 3.32322C0.616079 3.03033 1.09095 3.03033 1.38385 3.32322L3.47737 5.41674L6.94974 0.992105C6.95592 0.984235 6.96256 0.976743 6.96963 0.96967Z" fill="black"/>
+                  </svg>
+                </td>
+                <td>
+                  <svg width="24" height="24" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.96963 0.96967C7.26253 0.676777 7.7374 0.676777 8.03029 0.96967C8.31959 1.25897 8.32314 1.72582 8.04094 2.01947L4.04873 7.00973C4.04297 7.01693 4.03682 7.02381 4.03029 7.03033C3.7374 7.32322 3.26253 7.32322 2.96963 7.03033L0.323186 4.38388C0.0302923 4.09099 0.0302923 3.61612 0.323186 3.32322C0.616079 3.03033 1.09095 3.03033 1.38385 3.32322L3.47737 5.41674L6.94974 0.992105C6.95592 0.984235 6.96256 0.976743 6.96963 0.96967Z" fill="black"/>
+                  </svg>
+                </td>
+              </tr>
+
+
+
+
+
+              <tr>
+                <th scope="row" class="text-start">Treinar qualquer unidade</th>
+                <td></td>
+                <td>
+                  <svg width="24" height="24" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.96963 0.96967C7.26253 0.676777 7.7374 0.676777 8.03029 0.96967C8.31959 1.25897 8.32314 1.72582 8.04094 2.01947L4.04873 7.00973C4.04297 7.01693 4.03682 7.02381 4.03029 7.03033C3.7374 7.32322 3.26253 7.32322 2.96963 7.03033L0.323186 4.38388C0.0302923 4.09099 0.0302923 3.61612 0.323186 3.32322C0.616079 3.03033 1.09095 3.03033 1.38385 3.32322L3.47737 5.41674L6.94974 0.992105C6.95592 0.984235 6.96256 0.976743 6.96963 0.96967Z" fill="black"/>
+                  </svg>
+                </td>
+                <td>
+                  <svg width="24" height="24" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.96963 0.96967C7.26253 0.676777 7.7374 0.676777 8.03029 0.96967C8.31959 1.25897 8.32314 1.72582 8.04094 2.01947L4.04873 7.00973C4.04297 7.01693 4.03682 7.02381 4.03029 7.03033C3.7374 7.32322 3.26253 7.32322 2.96963 7.03033L0.323186 4.38388C0.0302923 4.09099 0.0302923 3.61612 0.323186 3.32322C0.616079 3.03033 1.09095 3.03033 1.38385 3.32322L3.47737 5.41674L6.94974 0.992105C6.95592 0.984235 6.96256 0.976743 6.96963 0.96967Z" fill="black"/>
+                  </svg>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Ficha Montada</th>
+                <td></td>
+                <td></td>
+                <td>
+                    <svg width="24" height="24" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.96963 0.96967C7.26253 0.676777 7.7374 0.676777 8.03029 0.96967C8.31959 1.25897 8.32314 1.72582 8.04094 2.01947L4.04873 7.00973C4.04297 7.01693 4.03682 7.02381 4.03029 7.03033C3.7374 7.32322 3.26253 7.32322 2.96963 7.03033L0.323186 4.38388C0.0302923 4.09099 0.0302923 3.61612 0.323186 3.32322C0.616079 3.03033 1.09095 3.03033 1.38385 3.32322L3.47737 5.41674L6.94974 0.992105C6.95592 0.984235 6.96256 0.976743 6.96963 0.96967Z" fill="black"/>
+                    </svg>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Dieta Montada</th>
+                <td></td>
+                <td></td>
+                <td>
+                      <svg width="24" height="24" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.96963 0.96967C7.26253 0.676777 7.7374 0.676777 8.03029 0.96967C8.31959 1.25897 8.32314 1.72582 8.04094 2.01947L4.04873 7.00973C4.04297 7.01693 4.03682 7.02381 4.03029 7.03033C3.7374 7.32322 3.26253 7.32322 2.96963 7.03033L0.323186 4.38388C0.0302923 4.09099 0.0302923 3.61612 0.323186 3.32322C0.616079 3.03033 1.09095 3.03033 1.38385 3.32322L3.47737 5.41674L6.94974 0.992105C6.95592 0.984235 6.96256 0.976743 6.96963 0.96967Z" fill="black"/>
+                      </svg>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  </section>
+  <hr>
+
+  <!-- Unidades-->
+
+
+  <div class="container overflow-hidden">
+    <h1 class="text-center">Unidades</h1>
+    <div class="row gy-5 justify-content-center text-center">
+
+        <div class="col-md-6 col-lg-4 d-flex flex-column align-items-center">
+            <div class="p-3"></div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://picsum.photos/200/120" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Unidade Belo Horizonte</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 d-flex flex-column align-items-center">
+            <div class="p-3"></div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://picsum.photos/200/120" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Unidade Nova Lima</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 d-flex flex-column align-items-center">
+            <div class="p-3"></div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://picsum.photos/200/120" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Unidade Contagem</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 d-flex flex-column align-items-center">
+            <div class="p-3"></div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://picsum.photos/200/120" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Unidade Betim</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 d-flex flex-column align-items-center">
+            <div class="p-3"></div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://picsum.photos/200/120" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Unidade Lorem</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-6 col-lg-4 d-flex flex-column align-items-center">
+            <div class="p-3"></div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://picsum.photos/200/120" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Unidade Neves</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
